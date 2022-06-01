@@ -1,0 +1,50 @@
+body{
+    overflow-x: hidden;
+}
+
+.bordeaux{
+    background: #61091C;
+}
+
+.animalPic{
+    background: url("https://www.beeztees.nl/wp-content/uploads/2014/10/labrador-shutterstock_130766411.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hockey{
+    background: url('https://www.liveabout.com/thmb/Mqsb5W_9rbBP96TJseMtO0Eo5SE=/3001x1688/smart/filters:no_upscale()/GettyImages-849841322-9921727d388148d1a8c1dc9146a1aa9f.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.khal{
+    background: url('https://resize-elle.ladmedia.fr/rcrop/638,,forcex/img/var/plain_site/storage/images/loisirs/sorties/dossiers/game-of-thrones-90-s-ou-simpsons-comment-les-preferez-vous/khal-drogo/40284807-1-fre-FR/Khal-Drogo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.keanu{
+    background: url('https://i.guim.co.uk/img/media/d080da48fee755dd1d201685c07694e8b3cd189c/0_268_2800_3395/master/2800.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=f7a0a730470e1e3893398099f5702efb');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fullHeight{
+    height: 100vh;
+    margin-bottom: 10rem;
+}
+
+.challengeContainer{
+    border: 1px solid grey;
+    height: 90vh;
+}
+
+#ball{
+    background: #61091C;
+    width: 200px;
+    height: 200px;
+    margin-left: calc(50% - 100px);
+    margin-top: 50px;
+    border-radius: 50%;
+}
