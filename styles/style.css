@@ -1,5 +1,37 @@
 body{
     overflow-x: hidden;
+    font-size: 1.5rem;
+    /* lol get pranked */
+    font-family: "Comic Sans MS";
+    background: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+}
+
+q{
+    text-align: right;
+    font-style: italic;
+    display: block;
+    margin-bottom: 1rem;
+    margin-right: -8px;
+}
+
+.iDontLikeFlex{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.words{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: right;
+}
+
+h1{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: right;
+    font-size: 5rem;
 }
 
 .bordeaux{
@@ -8,43 +40,104 @@ body{
 
 .animalPic{
     background: url("https://www.beeztees.nl/wp-content/uploads/2014/10/labrador-shutterstock_130766411.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .hockey{
     background: url('https://www.liveabout.com/thmb/Mqsb5W_9rbBP96TJseMtO0Eo5SE=/3001x1688/smart/filters:no_upscale()/GettyImages-849841322-9921727d388148d1a8c1dc9146a1aa9f.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .khal{
     background: url('https://resize-elle.ladmedia.fr/rcrop/638,,forcex/img/var/plain_site/storage/images/loisirs/sorties/dossiers/game-of-thrones-90-s-ou-simpsons-comment-les-preferez-vous/khal-drogo/40284807-1-fre-FR/Khal-Drogo.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .keanu{
     background: url('https://i.guim.co.uk/img/media/d080da48fee755dd1d201685c07694e8b3cd189c/0_268_2800_3395/master/2800.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=f7a0a730470e1e3893398099f5702efb');
-    background-size: contain;
+}
+
+.cedric{
+    background: url("../img/profilePic.jpg");
+    background-position: right!important;
+}
+
+.backgroundImage{
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fullHeight{
-    height: 100vh;
-    margin-bottom: 10rem;
+    height: 60vh;
+    margin-bottom: 15rem;
+    min-height: 300px;
 }
 
 .challengeContainer{
     border: 1px solid grey;
-    height: 90vh;
+    height: 70vh;
 }
 
 #ball{
     background: #61091C;
-    width: 200px;
-    height: 200px;
-    margin-left: calc(50% - 100px);
+    width: 100px;
+    height: 100px;
+    margin-left: calc(50% - 50px);
     margin-top: 50px;
     border-radius: 50%;
+}
+
+.description{
+    padding: 100px 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .cedric {
+        background-position: center!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cedric {
+        min-height: 500px;
+        margin-top: 2rem;
+    }
+
+    .yikes{
+        margin-bottom: 300px!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .picture{
+        min-height: 300px;
+        background-size: 100% auto;
+        margin-bottom: 2rem;
+    }
+
+    .fullHeight{
+        margin-bottom: 7rem;
+        height: 100vh!important;
+    }
+
+    .lolImCheatingSoHard{
+        height: 60vh!important;
+    }
+
+    .topPosition{
+        background-position: top;
+    }
+
+    .description, .challengeText{
+        padding: 0!important;
+    }
+}
+
+.challengeText{
+    padding: 0 150px;
+    margin-bottom: 2rem;
 }
