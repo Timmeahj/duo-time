@@ -96,11 +96,53 @@ canvas.setAttribute("id", "myCanvas");
 
 console.log(canvas);
 
+
+
 canvas.style.background = "#eee";
 canvas.style.display = "block";
 canvas.style.margin = "O auto";
 
 document.querySelector("canvas");
+
+console.log(canvas);
+
+
+let myCanvas = document.getElementById("myCanvas");
+
+myCanvas.style.width = "480px";
+myCanvas.style.height = "320px";
+
+// Storing a reference to the <canvas> element to the canvas variable. Then we're creating the ctx variable to store the 2D rendering context — the actual tool we can use to paint on the Canvas.
+
+let canvasBasics = document.getElementById("myCanvas");
+let ctx = canvasBasics.getContext("2d");
+
+
+// All the instructions are between the beginPath() and closePath() methods. We are defining a rectangle using rect(): the first two values specify the coordinates of the top left corner of the rectangle on the canvas, while the second two specify the width and height of the rectangle. In our case the rectangle is painted 20 pixels from the left side of the screen and 40 pixels from the top side, and is 50 pixels wide and 50 pixels high, which makes it a perfect square. The fillStyle property stores a color that will be used by the fill() method to paint the square, in our case, red.
+
+ctx.beginPath();
+ctx.rect(20, 40, 50, 50);
+ctx.fillStyle = "#FF0000";
+ctx.fill();
+ctx.closePath();
+
+// 
+
+ctx.beginPath();
+ctx.arc(240, 160, 20, 0, Math.PI*2, false);
+ctx.fillStyle = "green";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(160, 10, 100, 40);
+ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
+ctx.stroke();
+ctx.closePath();
+
+
+
+
 
 
 
