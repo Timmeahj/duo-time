@@ -12,7 +12,7 @@ document.getElementById("traits").innerHTML = "Stubborn<br>Aggressive<br>mentall
 
 // Quote
 
-document.querySelector("q").innerHTML = "You want a toe? I can get you a toe, believe me. With nail polish."
+document.querySelector("q").innerHTML = "You want a toe? I can get you a toe, believe me. There are ways, Dude. You don't wanna know about it, believe me. Hell, I can get you a toe by 3 o'clock this afternoon... with nail polish."
 
 
 // Profile picture
@@ -80,3 +80,9 @@ document.body.appendChild(editCSSThree);
 let noRepeat3 = document.createElement("style")
 noRepeat3.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
 document.body.appendChild(noRepeat3);
+
+
+
+
+
+// 
