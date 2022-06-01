@@ -22,6 +22,10 @@ let editCSS = document.createElement("style")
 editCSS.innerHTML = ".cedric {background: url(../img/walter.jpg)}";
 document.body.appendChild(editCSS);
 
+let noRepeat1 = document.createElement("style")
+noRepeat1.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
+document.body.appendChild(noRepeat1);
+
 
 //let cedric = document.getElementsByClassName("cedric")[0];
 //console.log(cedric);
@@ -38,7 +42,10 @@ let editCSSTwo = document.createElement("style")
 editCSSTwo.innerHTML = ".hockey {background: url(../img/bowling.jpg)}";
 document.body.appendChild(editCSSTwo);
 
-//let bowlingPic = document.createElement("style").bowlingPic.innerHTML = ".hockey {background: url(../img/sobchak bowling copy.jpg)}"
+let noRepeat2 = document.createElement("style")
+noRepeat2.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
+document.body.appendChild(noRepeat2);
+
 
 
 // Bowling text
@@ -54,3 +61,22 @@ document.getElementById("colourDescription").innerHTML = "I actually love the su
 
 
 
+// Celebrity text
+
+
+document.getElementById("celebrityDescription").innerHTML = "This choice was a difficult one for me! Big fan of Hideo Kojima, Adam Granduciel, just to name a few. As much as I like Keanu Reeves as an actor and human being, I think in the light of this themed website, we have to go for John Goodman. Just for his performance in the The Big Lebowski alone he is a worthy man."
+
+
+
+
+
+// celebrity photo
+
+let editCSSThree = document.createElement("style")
+editCSSThree.innerHTML = ".keanu {background: url(../img/goodman.jpg)}";
+document.body.appendChild(editCSSThree);
+
+
+let noRepeat3 = document.createElement("style")
+noRepeat3.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
+document.body.appendChild(noRepeat3);
