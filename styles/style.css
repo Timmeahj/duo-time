@@ -72,6 +72,12 @@ h1{
     min-height: 300px;
 }
 
+canvas {border: 1px solid black; cursor: crosshair;}
+
+
+
+
+
 .challengeContainer{
     border: 1px solid grey;
     height: 70vh;
