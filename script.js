@@ -83,6 +83,30 @@ document.body.appendChild(noRepeat3);
 
 
 
+// Creating bounce game
+
+// Create the canvas and draw on it
 
 
-// 
+const canvas = document.createElement("CANVAS");
+
+console.log(canvas);
+
+canvas.setAttribute("id", "myCanvas");
+
+console.log(canvas);
+
+canvas.style.background = "#eee";
+canvas.style.display = "block";
+canvas.style.margin = "O auto";
+
+document.querySelector("canvas");
+
+
+
+
+
+
+
+
+
