@@ -10,6 +10,25 @@ let traits = document.getElementById("traits").innerHTML;
 document.getElementById("traits").innerHTML = "Stubborn<br>Aggressive<br>mentally unhinged";
 
 
+
+// Favourite animal
+
+document.getElementById("animalDescription").innerHTML = "Right on the spot with this one! I love dogs but I don't have a labrador called Bella, I would go for a Golden Retriever some day. "
+
+
+// Animal picture
+
+let editCSSFour = document.createElement("style")
+editCSSFour.innerHTML = ".animalPic {background: url(../img/gr.jpg)}";
+document.body.appendChild(editCSSFour);
+
+
+let noRepeat4 = document.createElement("style")
+noRepeat4.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
+document.body.appendChild(noRepeat4);
+
+
+
 // Quote
 
 document.querySelector("q").innerHTML = "You want a toe? I can get you a toe, believe me. There are ways, Dude. You don't wanna know about it, believe me. Hell, I can get you a toe by 3 o'clock this afternoon... with nail polish."
@@ -50,7 +69,7 @@ document.body.appendChild(noRepeat2);
 
 // Bowling text
 
-document.getElementById("sportDescription").innerHTML = "“Smokey, this is not 'Nam. This is bowling. There are rules. You mark that frame an 8, and you're entering a world of pain.”";
+document.getElementById("sportDescription").innerHTML = " I'm going for bowling on this one, obviously. Here comes another quote :) “Smokey, this is not 'Nam. This is bowling. There are rules. You mark that frame an 8, and you're entering a world of pain.”";
 
 
 // Colour text
@@ -81,6 +100,23 @@ let noRepeat3 = document.createElement("style")
 noRepeat3.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
 document.body.appendChild(noRepeat3);
 
+
+// Fictional character
+
+document.getElementById("characterDescription").innerHTML = "I enjoyed Game of Thrones immensely, right until season 5 I think. Loved the books and am still awaiting those last two, if they ever come out.. So for my fictional character I'm going for another legendary Walter, Walter White aka Heisenberg. You're goddamn right! "
+
+
+// Fictional character photo
+
+
+let editCSSFive = document.createElement("style")
+editCSSFive.innerHTML = ".khal {background: url(../img/ww.png)}";
+document.body.appendChild(editCSSFive);
+
+
+let noRepeat5 = document.createElement("style")
+noRepeat5.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
+document.body.appendChild(noRepeat5);
 
 
 // Creating bounce game
