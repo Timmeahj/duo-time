@@ -92,7 +92,7 @@ document.getElementById("celebrityDescription").innerHTML = "This choice was a d
 // celebrity photo
 
 let editCSSThree = document.createElement("style")
-editCSSThree.innerHTML = ".keanu {background: url(../img/goodman.jpg)}";
+editCSSThree.innerHTML = ".keanu {background: url(./img/goodman.jpg)}";
 document.body.appendChild(editCSSThree);
 
 
