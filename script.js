@@ -142,6 +142,13 @@ document.styleSheets[0].insertRule('\
 
 
 
+        // closing text
+
+        document.getElementsByClassName("p-3")[0].innerHTML = "Remade with ❤ by Cédric";
+
+
+    
+
 
 
 
