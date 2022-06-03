@@ -1,13 +1,13 @@
 // Personality traits
 
 const words = document.getElementsByClassName("words")[0];
-console.log(words);
+
 
 words.setAttribute("id", "traits");
 
 let traits = document.getElementById("traits").innerHTML;
 
-document.getElementById("traits").innerHTML = "Stubborn<br>Aggressive<br>mentally unhinged";
+document.getElementById("traits").innerHTML = "Stubborn<br>Aggressive<br>Mentally unhinged";
 
 
 
@@ -119,62 +119,26 @@ noRepeat5.innerHTML = ".backgroundImage {background-repeat: no-repeat}";
 document.body.appendChild(noRepeat5);
 
 
-// Creating bounce game
-
-// Create the canvas and draw on it
+// Creating bouncing ball using keyframes
 
 
-const canvas = document.createElement("CANVAS");
+const ball = document.getElementById("ball");
 
-console.log(canvas);
-
-canvas.setAttribute("id", "myCanvas");
-
-console.log(canvas);
+ball.style.animation = "bounce 0.5s";
+ball.style.animationDirection = "alternate";
+ball.style.animationTimingFunction = "cubic-bezier(.5,0.05,1,.5)";
+ball.style.animationIterationCount = "infinite";
 
 
 
-canvas.style.background = "#eee";
-canvas.style.display = "block";
-canvas.style.margin = "O auto";
 
-document.querySelector("canvas");
+document.styleSheets[0].insertRule('\
+			@keyframes bounce {\
+				from { transform: translate3d(0, 0, 0);   }\
+				to   { transform: translate3d(0, 550px, 0); }\
+			}'
+		);
 
-console.log(canvas);
-
-
-let myCanvas = document.getElementById("myCanvas");
-
-myCanvas.style.width = "480px";
-myCanvas.style.height = "320px";
-
-// Storing a reference to the <canvas> element to the canvas variable. Then we're creating the ctx variable to store the 2D rendering context — the actual tool we can use to paint on the Canvas.
-
-let canvasBasics = document.getElementById("myCanvas");
-let ctx = canvasBasics.getContext("2d");
-
-
-// All the instructions are between the beginPath() and closePath() methods. We are defining a rectangle using rect(): the first two values specify the coordinates of the top left corner of the rectangle on the canvas, while the second two specify the width and height of the rectangle. In our case the rectangle is painted 20 pixels from the left side of the screen and 40 pixels from the top side, and is 50 pixels wide and 50 pixels high, which makes it a perfect square. The fillStyle property stores a color that will be used by the fill() method to paint the square, in our case, red.
-
-ctx.beginPath();
-ctx.rect(20, 40, 50, 50);
-ctx.fillStyle = "#FF0000";
-ctx.fill();
-ctx.closePath();
-
-// 
-
-ctx.beginPath();
-ctx.arc(240, 160, 20, 0, Math.PI*2, false);
-ctx.fillStyle = "green";
-ctx.fill();
-ctx.closePath();
-
-ctx.beginPath();
-ctx.rect(160, 10, 100, 40);
-ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
-ctx.stroke();
-ctx.closePath();
 
 
 
