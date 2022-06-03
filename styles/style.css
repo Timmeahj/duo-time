@@ -90,7 +90,12 @@ canvas {border: 1px solid black; cursor: crosshair;}
     margin-left: calc(50% - 50px);
     margin-top: 50px;
     border-radius: 50%;
+    
+    
 }
+
+
+
 
 .description{
     padding: 100px 150px;
