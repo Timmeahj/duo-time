@@ -19,7 +19,7 @@ document.getElementById("animalDescription").innerHTML = "Right on the spot with
 // Animal picture
 
 let editCSSFour = document.createElement("style")
-editCSSFour.innerHTML = ".animalPic {background: url(../img/gr.jpg)}";
+editCSSFour.innerHTML = ".animalPic {background: url(./img/gr.jpg)}";
 document.body.appendChild(editCSSFour);
 
 
@@ -38,7 +38,7 @@ document.querySelector("q").innerHTML = "You want a toe? I can get you a toe, be
 
 
 let editCSS = document.createElement("style")
-editCSS.innerHTML = ".cedric {background: url(../img/walter.jpg)}";
+editCSS.innerHTML = ".cedric {background: url(./img/walter.jpg)}";
 document.body.appendChild(editCSS);
 
 let noRepeat1 = document.createElement("style")
@@ -58,7 +58,7 @@ document.body.appendChild(noRepeat1);
 // Bowling picture
 
 let editCSSTwo = document.createElement("style")
-editCSSTwo.innerHTML = ".hockey {background: url(../img/bowling.jpg)}";
+editCSSTwo.innerHTML = ".hockey {background: url(./img/bowling.jpg)}";
 document.body.appendChild(editCSSTwo);
 
 let noRepeat2 = document.createElement("style")
@@ -110,7 +110,7 @@ document.getElementById("characterDescription").innerHTML = "I enjoyed Game of T
 
 
 let editCSSFive = document.createElement("style")
-editCSSFive.innerHTML = ".khal {background: url(../img/ww.png)}";
+editCSSFive.innerHTML = ".khal {background: url(./img/ww.png)}";
 document.body.appendChild(editCSSFive);
 
 
